@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     loadARandomQuestion();
-    // eslint-disable-next-line 
+    // eslint-disable-next-line
   }, []);
 
   const resetState = () => {
@@ -24,8 +24,8 @@ function App() {
     setShowSuccessModal(false);
     setPreviousIndexes([]);
     setStreak(0);
-    loadARandomQuestion()
-  }
+    loadARandomQuestion();
+  };
 
   const resetQuestion = () => {
     setAnsweredOption("");
@@ -51,7 +51,7 @@ function App() {
         // correctly answered
         setStreak(streak + 1);
         setTimeout(() => {
-          if(streak + 1 === 12){
+          if (streak + 1 === 12) {
             setShowSuccessModal(true);
           } else {
             loadARandomQuestion();
@@ -65,7 +65,6 @@ function App() {
             resetState();
           }, 2000);
         }, 1000);
-        
       }
     }
   };
@@ -86,7 +85,8 @@ function App() {
                 className={`normal ${
                   answeredOption === "" ? "" : "not-allowed"
                 } ${
-                  currentQuestion.correctAnswer === item && answeredOption !== ""
+                  currentQuestion.correctAnswer === item &&
+                  answeredOption !== ""
                     ? "correct"
                     : ""
                 } ${
@@ -137,8 +137,12 @@ function App() {
           <div className="modal-content">
             <h6 className="modal-heading emoji">🎉🥳🎁</h6>
             <h1 className="modal-heading won">Congratulations!!!</h1>
-            <h4 className="modal-heading try">You have answered {streak} questions correctly in a row!</h4>
-            <button className="start-button" onClick={()=> resetState()}>Start Over</button>
+            <h4 className="modal-heading try">
+              You have answered {streak} questions correctly in a row!
+            </h4>
+            <button className="start-button" onClick={() => resetState()}>
+              Start Over
+            </button>
           </div>
         </div>
       ) : null}

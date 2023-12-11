@@ -1,9 +1,17 @@
+#root {
+    width: 100%;
+    padding: 120px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .title {
     border: 1px solid lightgrey;
     border-radius: 2px;
-    width: 500px;
-    margin: auto;
-    margin-top: 255px;
+    max-width: 480px;
+    width: 100%;
+    margin: 12px;
     overflow: hidden;
 }
 
@@ -100,6 +108,7 @@
 }
 
 .modal-content{
+    margin: 0 12px;
     width: 480px;
     padding: 36px;
     background-color: white;
