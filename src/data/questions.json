@@ -1,0 +1,252 @@
+[
+    {
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars"
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "correctAnswer": "Blue Whale"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+      "correctAnswer": "William Shakespeare"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+      "correctAnswer": "Tokyo"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Gold", "Iron", "Silver"],
+      "correctAnswer": "Oxygen"
+    },
+    {
+      "question": "In which year did World War II end?",
+      "options": ["1943", "1945", "1950", "1960"],
+      "correctAnswer": "1945"
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "options": ["Lima", "Bogotá", "Brasília", "Caracas"],
+      "correctAnswer": "Brasília"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"],
+      "correctAnswer": "Pacific Ocean"
+    },
+    {
+      "question": "Which programming language is known for its use in web development?",
+      "options": ["Java", "Python", "C#", "JavaScript"],
+      "correctAnswer": "JavaScript"
+    },
+    {
+      "question": "Who wrote 'The Great Gatsby'?",
+      "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "J.K. Rowling", "George Orwell"],
+      "correctAnswer": "F. Scott Fitzgerald"
+    },
+    {
+      "question": "What is the currency of China?",
+      "options": ["Yen", "Won", "Yuan", "Ringgit"],
+      "correctAnswer": "Yuan"
+    },
+    {
+      "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+      "options": ["Mars", "Venus", "Mercury", "Jupiter"],
+      "correctAnswer": "Venus"
+    },
+    {
+      "question": "Who developed the theory of relativity?",
+      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Niels Bohr"],
+      "correctAnswer": "Albert Einstein"
+    },
+    {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "options": ["Charles Dickens", "Jane Austen", "Emily Brontë", "F. Scott Fitzgerald"],
+      "correctAnswer": "Jane Austen"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "correctAnswer": "Canberra"
+    },
+    {
+      "question": "In what year did the first human step onto the moon?",
+      "options": ["1965", "1969", "1973", "1981"],
+      "correctAnswer": "1969"
+    },
+    {
+      "question": "Which gas do plants absorb during photosynthesis?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Helium"],
+      "correctAnswer": "Carbon Dioxide"
+    },
+    {
+      "question": "Who is known as the 'Father of Computer Science'?",
+      "options": ["Alan Turing", "Bill Gates", "Steve Jobs", "Mark Zuckerberg"],
+      "correctAnswer": "Alan Turing"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "options": ["Yen", "Won", "Yuan", "Ringgit"],
+      "correctAnswer": "Yen"
+    },
+    {
+      "question": "Who painted 'Starry Night'?",
+      "options": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+      "correctAnswer": "Vincent van Gogh"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "options": ["Sahara Desert", "Arabian Desert", "Antarctica", "Gobi Desert"],
+      "correctAnswer": "Antarctica"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
+      "correctAnswer": "William Shakespeare"
+    },
+    {
+      "question": "What is the capital of South Africa?",
+      "options": ["Nairobi", "Johannesburg", "Cape Town", "Pretoria"],
+      "correctAnswer": "Pretoria"
+    },
+    {
+      "question": "In which year did the Titanic sink?",
+      "options": ["1912", "1920", "1931", "1945"],
+      "correctAnswer": "1912"
+    },
+    {
+      "question": "Who painted the 'Mona Lisa'?",
+      "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"],
+      "correctAnswer": "Pacific Ocean"
+    },
+    {
+      "question": "What is the currency of Mexico?",
+      "options": ["Peso", "Euro", "Dollar", "Yen"],
+      "correctAnswer": "Peso"
+    },
+    {
+      "question": "What is the largest bird in the world?",
+      "options": ["Penguin", "Ostrich", "Eagle", "Emu"],
+      "correctAnswer": "Ostrich"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": ["Harper Lee", "J.K. Rowling", "George Orwell", "Ernest Hemingway"],
+      "correctAnswer": "Harper Lee"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+      "correctAnswer": "Jupiter"
+    },
+    {
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "options": ["J.D. Salinger", "F. Scott Fitzgerald", "Ernest Hemingway", "Mark Twain"],
+      "correctAnswer": "J.D. Salinger"
+    },
+    {
+      "question": "Which country is known as the 'Land of the Midnight Sun'?",
+      "options": ["Norway", "Russia", "Sweden", "Finland"],
+      "correctAnswer": "Norway"
+    },
+    {
+      "question": "In what year did the Berlin Wall fall?",
+      "options": ["1985", "1989", "1991", "1995"],
+      "correctAnswer": "1989"
+    },
+    {
+      "question": "Who is the author of the 'Harry Potter' series?",
+      "options": ["J.R.R. Tolkien", "J.K. Rowling", "George R.R. Martin", "C.S. Lewis"],
+      "correctAnswer": "J.K. Rowling"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+      "correctAnswer": "Ottawa"
+    },
+    {
+      "question": "Which element is represented by the symbol 'Na' on the periodic table?",
+      "options": ["Nitrogen", "Sodium", "Nickel", "Neon"],
+      "correctAnswer": "Sodium"
+    },
+    {
+      "question": "What is the main ingredient in guacamole?",
+      "options": ["Tomato", "Avocado", "Onion", "Cilantro"],
+      "correctAnswer": "Avocado"
+    },
+    {
+      "question": "Who painted 'The Starry Night'?",
+      "options": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+      "correctAnswer": "Vincent van Gogh"
+    },
+    {
+      "question": "Which river is the longest in the world?",
+      "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "correctAnswer": "Nile River"
+    },
+    {
+      "question": "Who is known as the 'Father of Physics'?",
+      "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Niels Bohr"],
+      "correctAnswer": "Isaac Newton"
+    },
+    {
+      "question": "What is the largest desert in Asia?",
+      "options": ["Gobi Desert", "Sahara Desert", "Arabian Desert", "Karakum Desert"],
+      "correctAnswer": "Gobi Desert"
+    },
+    {
+      "question": "In which year did the United States declare its independence?",
+      "options": ["1776", "1789", "1801", "1812"],
+      "correctAnswer": "1776"
+    },
+    {
+      "question": "Who wrote 'The Odyssey'?",
+      "options": ["Homer", "Virgil", "Sophocles", "Aristotle"],
+      "correctAnswer": "Homer"
+    },
+    {
+      "question": "What is the capital of South Korea?",
+      "options": ["Seoul", "Tokyo", "Beijing", "Bangkok"],
+      "correctAnswer": "Seoul"
+    },
+    {
+      "question": "Which famous scientist developed the theory of general relativity?",
+      "options": ["Niels Bohr", "Albert Einstein", "Stephen Hawking", "Marie Curie"],
+      "correctAnswer": "Albert Einstein"
+    },
+    {
+      "question": "What is the largest island in the world?",
+      "options": ["Australia", "Greenland", "Borneo", "Madagascar"],
+      "correctAnswer": "Greenland"
+    },
+    {
+      "question": "Who is the author of 'The Great Expectations'?",
+      "options": ["Charles Dickens", "Jane Austen", "Emily Brontë", "F. Scott Fitzgerald"],
+      "correctAnswer": "Charles Dickens"
+    },
+    {
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": ["China", "Japan", "South Korea", "Vietnam"],
+      "correctAnswer": "Japan"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Fe", "Cu"],
+      "correctAnswer": "Au"
+    }
+  ]
