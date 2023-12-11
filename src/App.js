@@ -8,7 +8,6 @@ function App() {
     options: [],
     correctAnswer: "Loading",
   });
-  const [correctlyAnswered, setCorrectlyAnswered] = useState(false);
   const [answeredOption, setAnsweredOption] = useState("");
   const [previousIndexes, setPreviousIndexes] = useState([]);
   const [streak, setStreak] = useState(10);
@@ -17,6 +16,7 @@ function App() {
 
   useEffect(() => {
     loadARandomQuestion();
+    // eslint-disable-next-line 
   }, []);
 
   const resetState = () => {
@@ -28,7 +28,6 @@ function App() {
   }
 
   const resetQuestion = () => {
-    setCorrectlyAnswered(false);
     setAnsweredOption("");
   };
 
@@ -46,11 +45,10 @@ function App() {
   };
 
   const checkAnswer = (clickedAnswer) => {
-    if (answeredOption == "") {
+    if (answeredOption === "") {
       setAnsweredOption(clickedAnswer);
-      if (clickedAnswer == currentQuestion.correctAnswer) {
+      if (clickedAnswer === currentQuestion.correctAnswer) {
         // correctly answered
-        setCorrectlyAnswered(true);
         setStreak(streak + 1);
         setTimeout(() => {
           if(streak + 1 === 12){
@@ -61,7 +59,6 @@ function App() {
         }, 1000);
       } else {
         // incorrectly answered
-        setCorrectlyAnswered(false);
         setTimeout(() => {
           setShowModal(true);
           setTimeout(() => {
@@ -87,14 +84,14 @@ function App() {
             return (
               <li
                 className={`normal ${
-                  answeredOption == "" ? "" : "not-allowed"
+                  answeredOption === "" ? "" : "not-allowed"
                 } ${
-                  currentQuestion.correctAnswer == item && answeredOption != ""
+                  currentQuestion.correctAnswer === item && answeredOption !== ""
                     ? "correct"
                     : ""
                 } ${
-                  currentQuestion.correctAnswer != item &&
-                  answeredOption == item
+                  currentQuestion.correctAnswer !== item &&
+                  answeredOption === item
                     ? "wrong"
                     : ""
                 }`}
@@ -102,9 +99,9 @@ function App() {
                 onClick={() => checkAnswer(item)}
               >
                 <div>{item}</div>
-                {answeredOption == item ? (
+                {answeredOption === item ? (
                   <div>
-                    {answeredOption == currentQuestion.correctAnswer
+                    {answeredOption === currentQuestion.correctAnswer
                       ? "✅"
                       : "❌"}
                   </div>
