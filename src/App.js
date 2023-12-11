@@ -10,7 +10,7 @@ function App() {
   });
   const [answeredOption, setAnsweredOption] = useState("");
   const [previousIndexes, setPreviousIndexes] = useState([]);
-  const [streak, setStreak] = useState(10);
+  const [streak, setStreak] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
 
